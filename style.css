@@ -1,0 +1,106 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navTop{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+}
+.companyTitle{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.navBottom{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+.navMenu{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.quote{
+    display: flex;
+    background-color: #937DC2;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+}
+.whiteFont{
+    color: white;
+    text-align: center;
+}
+.carBlock{
+    border: 1px solid wheat;
+    margin: 5px;
+    /* border-radius: 10px; */
+    /* padding: 30px; */
+}
+.servicesHead{
+    display: flex;
+    background-color: #C689C6;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    margin: 0px;
+    
+}
+.serviceItem{
+    margin: 0px;
+    display: flex;
+    padding: 20px;
+    background-color: #FFABE1;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-img-top{
+    padding: 20px;
+}
+.callout-info {
+    border-left-color: blue;
+}
+.articleOD{
+    margin: 50px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aodButton{
+    color: white;
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFE6F7;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4e3240;
+}
+.footer h2{
+    display: inline;
+    border-bottom: 2px solid white;
+}
+.footerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+}
