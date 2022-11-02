@@ -56,7 +56,7 @@ font-size: 25px;
 line-height: 40px;
 padding-right: 0;
 margin-right: 0%;
-padding-left: 0%;
+padding-left: 8px;
 
 border-radius: 13px;
 border: 0;
@@ -74,8 +74,9 @@ color: #000000;
     height: 43px;
     background: #FF4BAD;
     border-radius: 15px;
-    padding-left: 0;
+    padding-left: 10px;
     margin-left: 0%;
+    margin-bottom: 5px;
     /* position:relative; */
 }
 .sss{
@@ -112,3 +113,11 @@ height: 52px;
     color:#FFFFFF;
 }
 
+i.fa-solid .fa-magnifying-glass::before{
+    height:45px; width:45px;
+}
+
+.hhh:hover{
+    color:#FF4BAD;
+    
+}
