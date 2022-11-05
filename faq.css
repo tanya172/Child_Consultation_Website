@@ -122,3 +122,14 @@ i.fa-solid .fa-magnifying-glass::before{
     
 }
 
+.questions{
+   
+    width: 700px;
+    height: 50 px;
+    border:1px solid black;
+    border-radius: 10px;
+    overflow: scroll;
+    background-color: azure;
+   
+
+}
