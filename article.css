@@ -239,8 +239,8 @@ input[type="checkbox"] {
 	width: 20px;
 	height: 20px;
 	border-radius: 999px;
-	border: 2px solid var(--business);
-	box-shadow: var(--business-glow);
+	border: 2px solid var(--parent);
+	box-shadow: var(--parent-glow);
 }
 
 .bubble.child {
