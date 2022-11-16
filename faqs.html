@@ -39,6 +39,8 @@
         </button>
         <div class="collapse navbar-collapse navMenu" id="navbarSupportedContent">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="#">Consult</a>
+            <a class="nav-link" href="#">Articles</a>
             <a class="nav-link" href="index.html">Consult</a>
             <a class="nav-link" href="article.html">Articles</a>
             <a class="nav-link" href="#">About Us</a>
@@ -52,7 +54,7 @@
             <div class="col-lg-6  search-bar">
                 <form action="faqs.html">
                     <input class="search" type="text" placeholder="Search Here">
-                    <button type="submit" class="btn"><i class="fa-solid fa-magnifying-glass"  style="height:45px; width:45px;"></i></button>
+                    <button type="submit" class="btn"><i class="fa-solid fa-magnifying-glass"  style="font-size: 30px;"></i></button>
                 </form>
             </div>
         </div>
@@ -63,43 +65,114 @@
         <div class="col-lg  tit">
             <h1 class="title1">Most asked questions </h1>
 
-            <p >
-                <a class="hhh" href="#" style="text-decoration:none; color:black" onclick="quest1()">1. How would the child psychologist go about working with the said problem?</a>
-                <div id="ques1"></div>
-            </p>
+          <div class="questions">
+                <div class="hhh"  ><p  onclick="quest1()" ondblclick="quest01()">1. How would the child psychologist go about working with the said problem?</p></div>
+                <div id="ques1">
+                   
+                </div>
 
-            <p>
-                <a class="hhh" href="#" style="text-decoration:none; color:black">2. What is the most preferred methods of teaching?</a>
-            </p>
-            <p>
-                <a class="hhh" href="#" style="text-decoration:none; color:black">3.My son is 10 but he is getting out of control slowly what should i do?</a>
-            </p>
-            
-            <p>
-                <a class="hhh" href="#" style="text-decoration:none; color:black"> 4. I want my child to focus on studies what sould I do ?</a>
-            </p>
+                <div class="hhh"  ><p  onclick="quest2()" ondblclick="quest02()">2. What is the most preferred methods of teaching?</p></div>
+                <div id="ques2">
+                   
+                </div>
 
-            <p>
-                <a class="hhh" href="#" style="text-decoration:none; color:black">5. How can I convince my child to meet with the child psychologist?</a>
-            </p>
+                <div class="hhh"  ><p  onclick="quest3()" ondblclick="quest03()">3.My son is 10 but he is getting out of control slowly what should i do?</p></div>
+                <div id="ques3">
+                   
+                </div>
 
+                <div class="hhh"  ><p  onclick="quest4()" ondblclick="quest04()">4. I want my child to focus on studies what sould I do ?</p></div>
+                <div id="ques4">
+                   
+                </div>
 
-
-            
-
+                <div class="hhh"  ><p  onclick="quest5()" ondblclick="quest05()">5. How can I convince my child to meet with the child psychologist?</p></div>
+                <div id="ques5">
+                   
+                </div>
 
              
+
+               
+
+                
+            </div>
+
+                
+            </div>
+
         </div>
-    </div>
+
+
+     </div>
 </div> 
 <script>
-    function quest1()
-    { 
-    //     var x;
-    //     x=document.getElementById("ques1");
-        document.getElementById("ques1").innerHTML = "The child psychologist in their training and knowledge is equipped to work with a vast array of child related issues. They would help your child learn useful strategies for coping in areas where they struggle.Some psychologists rely on historical background and explore your kid's past, while some believe in changing your kid’s current routine to bring in desirable changes in their emotional and mental state.";
-
+    function quest1(){
+      
+        document.getElementById("ques1").innerHTML = " Ans. The child psychologist in their training and knowledge is equipped to work with a vast array <br> of child related issues. They would help your child learn useful strategies for coping in areas<br> where they struggle.Some psychologists rely on historical background and explore your kid's past,<br> while some believe in changing your kid’s current routine to bring in desirable changes in <br>their emotional and mental state. ";
     }
+    function quest01()
+    { var x;
+        document.getElementById("ques1").innerHTML = " ";
+    }
+
+    function quest2()
+    {
+        document.getElementById("ques2").innerHTML=" Ans. Role-play is a technique that allows students to explore realistic situations by interacting with <br> other people in a managed way in order to develop experience and trial different strategies in a supported <br> environment. Depending on the intention of the activity, participants might be playing a role similar <br> to their own (or their likely one in the future) or could play the opposite part of the conversation <br> or interaction. Both options provide the possibility of significant learning, with the former <br> allowing experience to be gained and the latter encouraging the student to develop an understanding <br>of the situation from the ‘opposite’ point of view. <br>"
+    }
+
+    function quest02()
+    { var x;
+        document.getElementById("ques2").innerHTML = " ";
+    }
+
+    function quest3()
+    {
+        document.getElementById("ques3").innerHTML=" Ans. Team up with your child to help them deal with their anger. This way, you let your child know that <br>the anger is the problem, not them.With younger children, this can be fun and creative. Give anger<br> a name and try drawing it for example, anger can be a volcano that eventually explodes.How you respond <br>to anger can influence how your child responds to anger. Making it something you tackle <br> together can help you both.<br>"
+    }
+
+    function quest03()
+    { var x;
+        document.getElementById("ques3").innerHTML = " ";
+    }
+
+    
+    function quest4()
+    {
+        document.getElementById("ques4").innerHTML="Ans. 1. Reward them <br>   2.Make it Fun <br>  3. Compliment them   <br> 4. Encourage them to ask questions. <br>"
+    }
+
+    function quest04()
+    { var x;
+        document.getElementById("ques4").innerHTML = " ";
+    }
+
+    
+    function quest5()
+    {
+        document.getElementById("ques5").innerHTML=" Ans. Keep calm and present everything from a loving perspective. Don't make therapy a punishment. Instead, <br>talk about how you've made this decision because it will make things better for everyone. But<br> exactly what you say varies depending on your child's age. Here's what the experts suggest.<br>"
+    }
+
+    function quest05()
+    { var x;
+        document.getElementById("ques5").innerHTML = " ";
+    }
+
+
+<<<<<<< HEAD
+    function quest6()
+    {
+        document.getElementById("ques6").innerHTML=" Ans. Keep calm and present everything from a loving perspective. Don't make therapy a punishment. Instead, <br>talk about how you've made this decision because it will make things better for everyone. But<br> exactly what you say varies depending on your child's age. Here's what the experts suggest.<br>"
+    }
+
+    function quest06()
+    { var x;
+        document.getElementById("ques6").innerHTML = " ";
+    }
+
+=======
+>>>>>>> ee14304c093470cf6572e19d72d5edb34a6f7708
+
 </script>      
 </body>
 
